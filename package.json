@@ -1,0 +1,35 @@
+{
+  "name": "target-umbrella-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "ignore-styles": "^5.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "NODE_ENV=production BABEL_ENV=production node server/bootstrap.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
